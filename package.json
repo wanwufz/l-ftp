@@ -1,6 +1,6 @@
 {
   "name": "l-ftp",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple ftp upload tool",
   "main": "index.js",
   "bin": {
@@ -13,5 +13,9 @@
     "progress": "^2.0.3",
     "ssh2-sftp-client": "^2.5.0"
   },
-  "keywords": ["ftp", "sftp"]
+  "keywords": ["ftp", "sftp"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanwufz/l-ftp"
+  }
 }
