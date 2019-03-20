@@ -1,0 +1,17 @@
+{
+  "name": "l-ftp",
+  "version": "0.0.4",
+  "description": "A simple ftp upload tool",
+  "main": "index.js",
+  "bin": {
+    "push-l": "index.js"
+  },
+  "author": "wanwufz",
+  "license": "ISC",
+  "dependencies": {
+    "ftp": "^0.3.10",
+    "progress": "^2.0.3",
+    "ssh2-sftp-client": "^2.5.0"
+  },
+  "keywords": ["ftp", "sftp"]
+}
